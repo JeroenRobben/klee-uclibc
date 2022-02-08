@@ -107,8 +107,8 @@ extern int socketpair (int __domain, int __type, int __protocol,
 		       int __fds[2]) __THROW;
 
 /* Give the socket FD the local address ADDR (which is LEN bytes long).  */
-extern int bind (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len)
-     __THROW;
+// extern int bind (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len)
+//      __THROW;
 
 /* Put the local address of FD into *ADDR and its length in *LEN.  */
 extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
