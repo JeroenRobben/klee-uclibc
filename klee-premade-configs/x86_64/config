@@ -89,7 +89,7 @@ UCLIBC_GRP_BUFFER_SIZE=256
 #
 # Networking Support
 #
-# UCLIBC_HAS_IPV6 is not set
+UCLIBC_HAS_IPV6=y
 # UCLIBC_HAS_RPC is not set
 # UCLIBC_USE_NETLINK is not set
 # UCLIBC_HAS_BSD_RES_CLOSE is not set
