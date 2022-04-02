@@ -46,3 +46,15 @@ extra/config/conf
 extra/config/lex.zconf.c
 extra/config/zconf.hash.c
 extra/config/zconf.tab.c
+
+extra/locale/c8tables.h
+
+extra/locale/locale_data.c
+
+extra/locale/lt_defines.h
+
+extra/locale/uClibc_locale_data.h
+
+extra/locale/uClibc-locale-030818.tgz
+
+extra/locale/wctables.h
